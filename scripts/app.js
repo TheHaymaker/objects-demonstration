@@ -112,3 +112,15 @@ console.log(APP);
 // console.log(APP);
 
 
+var PERSON = {
+  firstName: "Brett",
+  lastName: "Haymaker",
+  speak: function(){
+    console.log("WHATUP! On the street, I\'m known as \'The " + this.lastName + "\'. But since this is a library, and you\'re a librarian ... I suppose you can call me by my first name - " + this.firstName + ".");
+  },
+  showMeThis: function(){
+    console.log(this);
+  }
+}
+
+
