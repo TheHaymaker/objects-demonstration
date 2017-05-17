@@ -2,6 +2,34 @@
   animation: change-colors 5s ease infinite;
 }
 
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.circle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle 50px, blue, transparent);
+  background-color: black;
+  -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+
+.box:hover .circle {
+  transform: translate(200px, 200px) scale(1.4) rotate(90deg);
+  background-color: red;
+}
+
 
 
 @-webkit-keyframes change-colors {
