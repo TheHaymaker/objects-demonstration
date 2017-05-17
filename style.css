@@ -1,0 +1,126 @@
+.background-change {
+  animation: change-colors 5s ease infinite;
+}
+
+
+
+@-webkit-keyframes change-colors {
+  0% {
+    background-color: white;
+   }
+
+   20% {
+    background-color: blue;
+   }
+
+   40% {
+    background-color: green;
+   }
+
+   60% {
+    background-color: yellow;
+   }
+
+   80% {
+    background-color: black;
+   }
+  100% {
+    backround-color: white;
+   }
+}
+@-moz-keyframes change-colors {
+  0% {
+    background-color: white;
+   }
+
+   20% {
+    background-color: blue;
+   }
+
+   40% {
+    background-color: green;
+   }
+
+   60% {
+    background-color: yellow;
+   }
+
+   80% {
+    background-color: black;
+   }
+  100% {
+    backround-color: white;
+   }
+}
+@-ms-keyframes change-colors {
+  0% {
+    background-color: white;
+   }
+
+   20% {
+    background-color: blue;
+   }
+
+   40% {
+    background-color: green;
+   }
+
+   60% {
+    background-color: yellow;
+   }
+
+   80% {
+    background-color: black;
+   }
+  100% {
+    backround-color: white;
+   }
+}
+@-o-keyframes change-colors {
+  0% {
+    background-color: white;
+   }
+
+   20% {
+    background-color: blue;
+   }
+
+   40% {
+    background-color: green;
+   }
+
+   60% {
+    background-color: yellow;
+   }
+
+   80% {
+    background-color: black;
+   }
+  100% {
+    backround-color: white;
+   }
+}
+@keyframes change-colors {
+  0% {
+    background-color: white;
+   }
+
+   20% {
+    background-color: blue;
+   }
+
+   40% {
+    background-color: green;
+   }
+
+   60% {
+    background-color: yellow;
+   }
+
+   80% {
+    background-color: black;
+   }
+  100% {
+    backround-color: white;
+   }
+}
