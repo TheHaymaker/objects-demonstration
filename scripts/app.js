@@ -70,6 +70,20 @@ APP.list.replaceListWithMessage = function(){
 
 }
 
+APP.list.toggleParentGrowth = function(){
+
+  if( !this.listParent.classList.contains('grow') ) {
+
+    this.listParent.classList.add('grow');
+
+  } else {
+
+    this.listParent.classList.remove('grow');
+
+  }
+
+}
+
 
 console.log(APP);
 
